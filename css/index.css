@@ -126,16 +126,18 @@ nav {
 
 .middleSection {
     display: flex;
-	/* justify-content: space-between;
-    flex-flow: wrap; */
+    flex-flow: wrap;
+	justify-content: space-between;
     align-content: space-between;
-    width: 15%;
+    width: 100%;
 	border-bottom: 1px dashed black;
 }
 
 .middle-text{
-    padding: 20px;
+    padding: 10px;
+    width: 49%;
     border-bottom: 1px dashed black;
+
 } 
 .box1{
     width: 12.5%;
